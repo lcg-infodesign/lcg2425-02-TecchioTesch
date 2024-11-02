@@ -81,8 +81,8 @@ function setup() {
       let num_cas = random(2, 4)
       let centerX = x + rectWidth / num_cas;
       let centerY = y + rectHeight / num_cas;
-      let radius = random(2, 5); // Raggio casuale tra 2 e 5 pixel
-      let Peso = random(2, 4); // Peso casuale dello stroke tra 2 e 5
+      let radius = random(2, 10); // Raggio casuale tra 2 e 5 pixel
+      let Peso = random(1, 3); // Peso casuale dello stroke tra 2 e 5
 
       noFill();
       stroke(random(color_stroke)); // Colore casuale per il contorno del cerchio
